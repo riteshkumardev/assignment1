@@ -102,3 +102,30 @@ for(var i=0; i <arry.length;i++){
 avg=add/arry.length
 console.log("sum is =>",add);
 console.log("averagr is =>",avg);
+
+// Number 15
+var mobile=10000
+var headphone=1200
+var charger = 1600
+var mobile_quantity=2
+var charger_quantity=5
+var headphone_quantity=10
+var mobile_total=mobile*mobile_quantity
+var charger_total=charger*charger_quantity
+var headphone_total=headphone*headphone_quantity
+var total=mobile_total+headphone_total+charger_total
+console.log(total);
+
+// Number 16
+
+var pan = 80;
+var book=140;
+var pan_quantity=6;
+var book_quantity=3;
+var trip=50
+var pan_tex=pan*(5/100)
+var bokk_tex=book*(8/100)
+var total_pan_price=pan*pan_quantity-pan_tex
+var total_book_price=book*book_quantity-bokk_tex
+var total=total_pan_price+total_book_price+trip
+console.log(total);
