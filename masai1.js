@@ -100,4 +100,5 @@ for(var i=0; i <arry.length;i++){
   
 }
 avg=add/arry.length
+console.log("sum is =>",add);
 console.log("averagr is =>",avg);
